@@ -19,18 +19,6 @@ class Interfaz {
           option.appendChild(document.createTextNode(moneda.name))
           select.appendChild(option)
         })
-
-        // construir select desde la REST API, v2
-        // for (let i in arregloMonedas) {
-        //   const moneda = {
-        //     name: arregloMonedas[i].name,
-        //     website_slug: arregloMonedas[i].website_slug
-        //   }
-        //   const option = document.createElement('option')
-        //   option.value = moneda.website_slug
-        //   option.appendChild(document.createTextNode(moneda.name))
-        //   select.appendChild(option)
-        // }
       })
   }
 
